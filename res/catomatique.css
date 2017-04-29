@@ -1,0 +1,463 @@
+html
+{
+	width: 100%;
+	height: 100%;
+}
+
+body 
+{
+	width: 100%;
+	height: 100%;
+	margin: 0%;
+	margin-bottom: 10%;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+header
+{
+	display: block;
+	width: 100%;
+	height : auto;
+	
+	box-shadow: 0px 2px 2px black;
+	border-bottom: ridge white;
+	background: linear-gradient(0deg, transparent, tomato, transparent); 
+}
+
+footer
+{
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	height:32px;
+	width:100%;
+	background: linear-gradient(0deg, salmon, transparent, transparent);
+}
+
+footer a
+{
+	float: right;
+	margin-right: 5%;
+	padding-left: 1%;
+	padding-right: 1%;
+	font-weight: bold;
+	background: linear-gradient(0deg, transparent, tomato, salmon);
+	border-radius: 5px;
+	color: gold;
+	text-shadow: 2px 2px 5px black;
+}
+
+a
+{
+	text-decoration: none;
+	color: indigo;
+}
+
+img
+{
+	display: block;
+	margin: auto;
+	border-style: ridge;
+}
+
+form
+{
+	min-width: 600px;
+	height: auto;
+	min-height: 250px;
+	padding: 1%;
+	border-top: ridge;
+	border-bottom: ridge;
+	border-radius: 10px;
+}
+
+label
+{
+	display: inline-block;
+}
+
+input
+{
+	float: right;
+}
+
+label>input
+{
+	margin-left: 5%;
+	float: left;
+}
+
+main 
+{
+	position: relative;
+	margin: 0%;
+	margin-bottom: 10%;
+	padding: 0%;
+	width: 100%;
+	height: auto;
+}
+
+nav 
+{
+	float: left;
+	min-height: 100%;
+	height: auto;
+	background: linear-gradient(90deg, tomato, salmon, transparent);
+	box-shadow: 1px 0px 1px white;
+	color: indigo;
+	min-width: 10%;
+}
+
+nav h2
+{
+	margin: 0%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-align: center;
+	text-shadow: 2px 2px 5px black; 
+	font-size: 150%;
+	color: gold;
+}
+
+.emptyHead, .headerElements, .cart
+{
+	display: inline-block;
+	margin: 0%;
+	padding: 0%;
+}
+
+.emptyHead
+{
+	width: 8%;
+	height: 100%;
+}
+
+.headerElements
+{
+	height: 100%;
+	width: 80%;
+}
+
+.headerElements h1
+{
+	width: 100%;
+	margin: 0%;
+
+	text-align: center;
+	font-style: italic;
+	font-size: 32pt;
+}
+
+.headerElements h1>a
+{
+	color: gold;
+	text-shadow: 2px 2px 5px black;
+}
+
+.headerElements h2
+{
+	width: 100%;
+	margin: 0%;
+	color: indigo;
+	text-shadow: 2px 2px 5px white;
+	text-align: center;
+}
+
+.headerElements .links a
+{	
+	display: inline-block;
+	width: 25%;
+	height: 16pt;
+
+	margin: 2% auto 0% auto;
+	overflow: hidden;
+	background: linear-gradient(0deg, transparent, indigo, purple);
+	
+	color: gold;
+	text-shadow: 2px 2px 5px black;
+	font-weight: bold;
+	text-align: center;
+}
+
+.headerElements .links a:first-of-type
+{
+	border-top-left-radius: 10px;
+}
+
+.headerElements .links a:last-of-type
+{
+	border-top-right-radius: 10px;
+}
+
+.headerElements .links a:hover
+{
+	background: linear-gradient(0deg, transparent, #0099ff, blue);
+}
+
+.cart
+{
+	float: right;
+	height: auto;
+	width: 10%;
+}
+
+.cart:hover
+{
+	background: radial-gradient(blue, #0099ff, transparent);
+}
+
+.cart a
+{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+.cart img
+{
+	width: 100px;
+	height: auto;
+	border: none;
+}
+
+.cart p
+{
+	width: 100%;
+	height: auto;
+	margin: 0%;
+	
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 2px 2px 5px white;
+}
+
+.navList a img
+{
+	width: 150px;
+	height: 150px;
+	border: none;
+}
+
+.navList a
+{
+	display: block;
+	text-align: center;
+	width: 100%;
+	height: auto;
+	
+	font-size: 14pt;
+	color: indigo;
+	text-shadow: 2px 2px 5px white;
+	font-weight: bold;
+	font-style: italic;	
+}
+
+.navList a:hover
+{
+	background: radial-gradient(blue, #0099ff, transparent);
+}
+
+.dynamique 
+{
+	position: absolute;
+	display: inline-block;
+	width: auto;
+	height: auto;
+	padding-left: 1%;
+	margin-bottom: 5%;
+
+	color: indigo;
+	text-align: center;
+}
+
+.dynamique h2
+{
+	width: 50%;
+	min-width: 25%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	padding-left: 1%;
+	
+	border-radius: 10px;
+	background: linear-gradient(90deg, tomato, salmon, transparent);
+	
+	text-align: left;
+	text-shadow: 2px 2px 5px white;	
+}
+
+.left-column, .right-column, .contained-block, .block-text
+{
+	display: inline-block;
+}
+
+.left-column, .right-column
+{
+	float: left;
+	padding: 1%;
+	width: 48%;
+	min-width: 48%;
+	height: auto;
+	
+	text-align: left;
+	color: indigo;
+	text-shadow: 2px 2px 5px white;
+}
+
+.left-column h2, .right-column h2
+{
+	text-align: center;
+	text-shadow: 2px 2px 5px white;
+}
+
+.right-column .contained-block img 
+{
+	display: block;
+	margin: auto;
+	width: 50%;
+	min-width: 150px;
+	height: auto;
+}
+
+.right-column .contained-block
+{
+	float: left;
+	width: 50%;
+	min-width: 50%;
+	background: white;
+	text-align: justify;
+}
+
+.contained-block, form
+{
+	width: 100%;
+}
+
+.chatDuJour
+{
+	background: radial-gradient(salmon, tomato, salmon);
+}
+
+.autresChats
+{
+	text-align: left;
+	background: salmon;
+}
+
+.chatDuJour, .autresChats
+{
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.contained-block, .autresChats, .chatDuJour
+{
+	min-width: 600px;
+	height: auto;
+	padding: 1%;
+	border-top: ridge;
+	border-bottom: ridge;
+	border-radius: 10px;
+}
+
+.contained-block img
+{
+	display: inline-block;
+	width: 25%;
+	height: auto;
+	border: ridge;
+}
+
+.contained-block>.left-column img
+{
+	margin: 0%;
+	width: 400px;
+	min-width: 300px;
+	height: 300px;
+	min-height: 225px;
+}
+
+.chatDuJour h4, .autresChats h4
+{
+	margin: 0%;
+	padding: 0%;
+}
+
+.chatDuJour img, .autresChats img
+{
+	display: block;
+	margin: auto;
+	width: 150px;
+	height: 150px;
+	min-width: 100px;
+	min-height: 100px;
+}
+
+.block-text
+{
+	width: 74%;
+	height: auto;
+	float: left;
+}
+
+.block-text p, .block-text h3
+{
+	margin: 0%;
+	padding: 0%;
+}
+
+.block-text h3
+{
+	color: indigo;
+}
+
+#about
+{
+	color: indigo;
+	width: 100%;
+	margin-top: 1%;
+	text-align: center;
+}
+
+#pageChatRight
+{
+	width: 60%;
+	min-width: 700px;
+}
+
+#pageChatLeft
+{
+	width: 35%;
+	min-width: 300px;
+}
+
+#checkout
+{
+	min-width: 600px;
+}
+
+#checkout-summary
+{
+	display: block;
+	min-width: 25%;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#checkout-summary h3, #checkout-summary p
+{
+	margin: 0%;
+	padding: 0%;
+}
+
+ #checkout-summary p
+ {
+	 text-align: right;
+ }

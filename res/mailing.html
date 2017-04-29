@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Catomatique : checkout</title>
+		<link rel="stylesheet" href="catomatique.css" type="text/css"/>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<header>
+			<div class="emptyHead"></div>
+			<div class="headerElements">
+				<h1><a href="../index.html">CATOMATIC</a></h1>
+				<h2>Le premier site de ventes des chats du Web !</h2>
+				<div class="links">
+					<a href="categorie.html"> Chats discounts </a><a href="categorie.html"> Chats à la mode </a><a href="categorie.html"> Chats de saison </a><a href="categorie.html"> Chats de luxe </a>
+				</div>
+			</div>
+			<div class="cart">
+				<a href="checkoutTout.html">
+					<img src="images/money-icon.png" alt="icone de checkout" />
+					<p>checkout</p>
+				</a>
+			</div>
+		</header>
+		<main>
+			<div class="dynamique">
+				<div class="left-column" id="checkout">
+					<form action="payment.html" method="get">
+						<label>Adresse #1 <input type="text" name="adresse1" /></label><br/>
+						<label>Adresse #2 <input type="text" name="adresse2" /></label><br/>
+						<label>CP & Ville <input type="text" name="cp_ville" /></label><br/>
+						<label>Téléphone <input type="tel" name="phone" /></label><br/>
+						<label>Email <input type="email" name="email" /></label><br/>
+						<input type="submit" value="Envoyer" /><input type="reset" />
+					</form>
+				</div>
+				<div class="right-column">
+					<div class="contained-block">
+						<h2>Votre adresse</h2>
+						<img src="images/mailCat.jpeg" alt="image de chat postale" />
+					</div>
+				</div>
+			</div>
+			<footer>
+				<a href="about.html">A propos de nous</a>
+			</footer>
+		</main>
+	</body>
+</html>
